@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.navbar{
+    background-color:#514f4fc4;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style: none;
+}
+.nav-items a {
+    padding-left: 4.2rem;
+    padding-right:1rem ;
+}
+.m1{
+ background-image: url('../images/main.jpg'); 
+ width: auto;
+ height: 730px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-size: 100% 100%;
+ background-position: center;
+ 
+ position: relative;
+ 
+}
+.main-contant{
+    background-color: #5258583d;
+   
+    
+    padding:0 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.main-contant h2 {
+    font-size: 80px;
+}
+.main-contant{
+    font-size: 30px;
+}
+.btn-main{
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 0.2rem;
+    font-family:'Poppins', sans-serif ;
+}
+.food-title{
+    padding: 10px;
+    background-color:#d5b816;
+    color: rgb(247, 244, 244);
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+   
+}
+
+
+.food-items{
+    padding: 3rem;
+   
+   
+}
+.food-item{
+    
+    padding-bottom: 14px;
+    border-radius: 0.3rem;
+
+    background-color: #5142423d;
+    width: 250px;
+    color: rgb(17, 2, 2);
+}
+.food-item:hover{
+    transition: 200ms;
+    box-shadow: 11px 13px 48px 0px rgba(0,0,0,0.83);
+-webkit-box-shadow: 11px 13px 48px 0px rgba(0,0,0,0.83);
+-moz-box-shadow: 11px 13px 48px 0px rgba(0,0,0,0.83);
+}
+.food-item img{
+    width: 250px;
+    height:200px ;
+    border-radius: 0.3rem;
+}
+.food-item h5{
+    
+    padding-left: 15px;
+    padding-top: 5px;
+    color: rgb(17, 8, 8);
+    font-family: 'Poppins', sans-serif;
+}
+.food-item__dec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.food-item__dec:hover{
+    cursor: pointer;
+}
+.food-item__dec .ic{
+    padding-top: 5px;
+    padding-right: 8px;
+   
+}
+.ic i{
+    padding-left: 20px;
+    
+}
+.fa-heart:hover{
+    color: red;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+footer{
+    background-color:#d5b816 ;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 50px
+    
+}
+footer h3{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+footer p{
+    color:white;
+}
+.copy-r{
+    padding-top: 20px;
+}
+.copy-r p{
+    color: white;
+}
